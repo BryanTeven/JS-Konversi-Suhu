@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <h1>Konversi Suhu</h1>
+        <input type="number" id="inputan" value="0"><br>
+
+        <input type="radio" id="keFahrenheit" name="unit" value="0">
+        <label for="keFahrenheit">Celsius ➡️ Fahrenheit</label><br>
+
+        <input type="radio" id="keCelsius" name="unit" value="0">
+        <label for="keCelsius">Fahrenheit ➡️ Celcius</label><br>
+
+        <input type="radio" id="fkeKelvin" name="unit" value="0">
+        <label for="fkeKelvin">Fahrenheit ➡️ Kelvin</label><br>
+
+        <input type="radio" id="ckeKelvin" name="unit" value="0">
+        <label for="ckeKelvin">Celsius ➡️ Kelvin</label><br>
+
+        <input type="radio" id="kelkeF" name="unit" value="0">
+        <label for="kelkeF"> Kelvin ➡️ Fahrenheit</label><br>
+
+        <input type="radio" id="kelkeC" name="unit" value="0">
+        <label for="kelkeC">Kelvin ➡️ Celsius</label><br>
+
+        <button type="button" onclick="konversi()">Kirim</button>
+
+        <p id="hasil"></p>
+
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
